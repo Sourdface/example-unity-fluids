@@ -35,6 +35,8 @@ public class FluidSurfaceController : MonoBehaviour
 
     public double fluidImpactPower = 2;
 
+    public int fluidImpactRadius = 5;
+
     /// <summary>Current fluid volume points</summary>
     protected double[] flVolC;
 
@@ -142,8 +144,8 @@ public class FluidSurfaceController : MonoBehaviour
          if (Input.GetKeyDown(KeyCode.Space)) {
             int centerX = (int) UnityEngine.Random.Range(0, fluidGridSize.x);
             int centerZ = (int) UnityEngine.Random.Range(0, fluidGridSize.y);
-            for (int z = -20; z < 20; z ++) {
-                for (int x = -20; x < 20; x++) {
+            for (int z = -fluidImpactRadius; z < fluidImpactRadius; z ++) {
+                for (int x = -fluidImpactRadius; x < fluidImpactRadius; x++) {
                     if (
                         (x + centerX) < 0 ||
                         (x + centerX) >= (fluidGridSize.x) ||

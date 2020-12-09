@@ -315,17 +315,17 @@ PrefabInstance:
     - target: {fileID: 4785305819848166577, guid: 759e719fde87ebf41bb238bfc3a37156,
         type: 3}
       propertyPath: fluidGridSize.x
-      value: 35
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4785305819848166577, guid: 759e719fde87ebf41bb238bfc3a37156,
         type: 3}
       propertyPath: fluidGridSize.y
-      value: 35
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4785305819848166577, guid: 759e719fde87ebf41bb238bfc3a37156,
         type: 3}
       propertyPath: fluidImpactPower
-      value: 9.61
+      value: 3.43
       objectReference: {fileID: 0}
     - target: {fileID: 4785305819848166577, guid: 759e719fde87ebf41bb238bfc3a37156,
         type: 3}
@@ -340,7 +340,7 @@ PrefabInstance:
     - target: {fileID: 4785305819848166577, guid: 759e719fde87ebf41bb238bfc3a37156,
         type: 3}
       propertyPath: fluidVolumeTurbulence
-      value: 0
+      value: 3.47
       objectReference: {fileID: 0}
     - target: {fileID: 4785305819848166577, guid: 759e719fde87ebf41bb238bfc3a37156,
         type: 3}
